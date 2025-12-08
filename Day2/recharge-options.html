@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recharge Options - RechargeNow</title>
+    <link rel="stylesheet" href="recharge-options.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+
+<header>
+    <div class="logo">RechargeNow</div>
+    <nav>
+        <a href="landing.html">Home</a>
+        <a href="landing.html#about">About</a>
+        <a href="landing.html#offers">Offers</a>
+        <a href="login.html" class="btn">Login</a>
+    </nav>
+</header>
+
+<section class="recharge-options">
+    <div class="container">
+        <h1>Choose Your Recharge Type</h1>
+        
+        <div class="options-grid">
+            <div class="option-card" onclick="selectOption('mobile')">
+                <div class="option-icon">📱</div>
+                <h3>Mobile Recharge</h3>
+                <p>Prepaid & Postpaid mobile recharge for all operators</p>
+                <div class="features">
+                    <span>✓ Instant Recharge</span>
+                    <span>✓ All Operators</span>
+                    <span>✓ Best Plans</span>
+                </div>
+            </div>
+            
+            <div class="option-card" onclick="selectOption('dth')">
+                <div class="option-icon">📺</div>
+                <h3>DTH Recharge</h3>
+                <p>Digital TV recharge for all DTH providers</p>
+                <div class="features">
+                    <span>✓ Tata Sky</span>
+                    <span>✓ Airtel Digital TV</span>
+                    <span>✓ Dish TV</span>
+                </div>
+            </div>
+            
+            <div class="option-card" onclick="selectOption('datacard')">
+                <div class="option-icon">💻</div>
+                <h3>Data Card</h3>
+                <p>Internet data card recharge for dongles</p>
+                <div class="features">
+                    <span>✓ High Speed Data</span>
+                    <span>✓ All Providers</span>
+                    <span>✓ Flexible Plans</span>
+                </div>
+            </div>
+            
+            <div class="option-card" onclick="selectOption('electricity')">
+                <div class="option-icon">⚡</div>
+                <h3>Electricity Bill</h3>
+                <p>Pay electricity bills online instantly</p>
+                <div class="features">
+                    <span>✓ All States</span>
+                    <span>✓ Instant Payment</span>
+                    <span>✓ Bill Reminders</span>
+                </div>
+            </div>
+            
+            <div class="option-card" onclick="selectOption('gas')">
+                <div class="option-icon">🔥</div>
+                <h3>Gas Bill</h3>
+                <p>LPG cylinder booking and gas bill payment</p>
+                <div class="features">
+                    <span>✓ Quick Booking</span>
+                    <span>✓ All Providers</span>
+                    <span>✓ Track Delivery</span>
+                </div>
+            </div>
+            
+            <div class="option-card" onclick="selectOption('water')">
+                <div class="option-icon">💧</div>
+                <h3>Water Bill</h3>
+                <p>Municipal water bill payment</p>
+                <div class="features">
+                    <span>✓ All Cities</span>
+                    <span>✓ Auto Pay</span>
+                    <span>✓ Bill History</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="quick-actions">
+            <h2>Quick Actions</h2>
+            <div class="quick-grid">
+                <button class="quick-btn" onclick="quickAction('history')">
+                    <span class="quick-icon">📋</span>
+                    Transaction History
+                </button>
+                <button class="quick-btn" onclick="quickAction('offers')">
+                    <span class="quick-icon">🎁</span>
+                    Current Offers
+                </button>
+                <button class="quick-btn" onclick="quickAction('support')">
+                    <span class="quick-icon">🎧</span>
+                    Customer Support
+                </button>
+                <button class="quick-btn" onclick="quickAction('wallet')">
+                    <span class="quick-icon">👛</span>
+                    My Wallet
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="recharge-options.js"></script>
+</body>
+</html>
