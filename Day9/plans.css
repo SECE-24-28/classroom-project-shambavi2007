@@ -1,0 +1,231 @@
+.plans-main {
+    padding-top: 100px;
+    min-height: 100vh;
+    background: #f8fafc;
+}
+
+.plans-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.plans-header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 16px;
+}
+
+.plans-header p {
+    font-size: 18px;
+    color: #64748b;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.operator-selector {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.operator-btn {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.operator-btn:hover,
+.operator-btn.active {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+.op-logo {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.op-logo.airtel { color: #ff0000; }
+.op-logo.jio { color: #0066cc; }
+.op-logo.vi { color: #8b2635; }
+.op-logo.bsnl { color: #ff6600; }
+
+.plan-categories {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+.category-btn {
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.category-btn:hover,
+.category-btn.active {
+    background: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+.plan-card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.plan-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.plan-card.popular {
+    border-color: #2563eb;
+    position: relative;
+}
+
+.plan-card.popular::before {
+    content: "Most Popular";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2563eb;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.plan-price {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.plan-validity {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.plan-benefits {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.plan-benefits li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #374151;
+}
+
+.plan-benefits li::before {
+    content: "✓";
+    color: #10b981;
+    font-weight: bold;
+    width: 16px;
+}
+
+.plan-highlight {
+    background: #fef3c7;
+    color: #92400e;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.plan-btn {
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.plan-btn:hover {
+    background: #1d4ed8;
+}
+
+.plan-type {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: #f3f4f6;
+    color: #6b7280;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .plans-header h1 {
+        font-size: 32px;
+    }
+    
+    .operator-selector {
+        gap: 8px;
+    }
+    
+    .operator-btn {
+        padding: 12px 16px;
+        min-width: 100px;
+    }
+    
+    .plans-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.no-plans, .error-message {
+    text-align: center;
+    padding: 40px;
+    color: #64748b;
+    font-size: 16px;
+    grid-column: 1 / -1;
+}
+
+.error-message {
+    color: #ef4444;
+    background: #fee2e2;
+    border-radius: 8px;
+    border: 1px solid #fca5a5;
+}

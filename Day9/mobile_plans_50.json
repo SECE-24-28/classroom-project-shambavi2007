@@ -1,0 +1,820 @@
+[
+  {
+    "operator": "Vi",
+    "category": "Unlimited",
+    "price": 999,
+    "validity": "84 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "2GB/day"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Popular",
+    "price": 249,
+    "validity": "28 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2GB/day data"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Popular",
+    "price": 199,
+    "validity": "28 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "1.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Data Packs",
+    "price": 65,
+    "validity": "28 days",
+    "data": "4GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "4GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Popular",
+    "price": 249,
+    "validity": "28 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2GB/day data"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Talktime",
+    "price": 100,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b981.75",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b981.75 talktime"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Data Packs",
+    "price": 118,
+    "validity": "28 days",
+    "data": "12GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "12GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Talktime",
+    "price": 20,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b914.95",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b914.95 talktime"
+    ]
+  },
+  {
+    "operator": "Airtel",
+    "category": "Popular",
+    "price": 249,
+    "validity": "28 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2GB/day data"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Popular",
+    "price": 299,
+    "validity": "28 days",
+    "data": "2.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Popular",
+    "price": 249,
+    "validity": "28 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2GB/day data"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Data Packs",
+    "price": 65,
+    "validity": "28 days",
+    "data": "4GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "4GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Data Packs",
+    "price": 65,
+    "validity": "28 days",
+    "data": "4GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "4GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Popular",
+    "price": 299,
+    "validity": "28 days",
+    "data": "2.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2.5GB/day data"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Unlimited",
+    "price": 666,
+    "validity": "84 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "1.5GB/day"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Data Packs",
+    "price": 19,
+    "validity": "1 day",
+    "data": "1GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "1GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "Airtel",
+    "category": "Popular",
+    "price": 199,
+    "validity": "28 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "1.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Popular",
+    "price": 249,
+    "validity": "28 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2GB/day data"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Popular",
+    "price": 249,
+    "validity": "28 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2GB/day data"
+    ]
+  },
+  {
+    "operator": "Airtel",
+    "category": "Unlimited",
+    "price": 549,
+    "validity": "56 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "1.5GB/day"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Unlimited",
+    "price": 666,
+    "validity": "84 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "1.5GB/day"
+    ]
+  },
+  {
+    "operator": "Airtel",
+    "category": "Talktime",
+    "price": 10,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b97.47",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b97.47 talktime"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Popular",
+    "price": 299,
+    "validity": "28 days",
+    "data": "2.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Data Packs",
+    "price": 19,
+    "validity": "1 day",
+    "data": "1GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "1GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Talktime",
+    "price": 20,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b914.95",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b914.95 talktime"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Data Packs",
+    "price": 19,
+    "validity": "1 day",
+    "data": "1GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "1GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Unlimited",
+    "price": 999,
+    "validity": "84 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "2GB/day"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Talktime",
+    "price": 100,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b981.75",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b981.75 talktime"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Popular",
+    "price": 299,
+    "validity": "28 days",
+    "data": "2.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Popular",
+    "price": 249,
+    "validity": "28 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2GB/day data"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Unlimited",
+    "price": 999,
+    "validity": "84 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "2GB/day"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Talktime",
+    "price": 100,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b981.75",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b981.75 talktime"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Data Packs",
+    "price": 19,
+    "validity": "1 day",
+    "data": "1GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "1GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Unlimited",
+    "price": 549,
+    "validity": "56 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "1.5GB/day"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Talktime",
+    "price": 10,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b97.47",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b97.47 talktime"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Talktime",
+    "price": 100,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b981.75",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b981.75 talktime"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Talktime",
+    "price": 10,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b97.47",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b97.47 talktime"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Popular",
+    "price": 299,
+    "validity": "28 days",
+    "data": "2.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Airtel",
+    "category": "Popular",
+    "price": 199,
+    "validity": "28 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "1.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Unlimited",
+    "price": 666,
+    "validity": "84 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "1.5GB/day"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Unlimited",
+    "price": 666,
+    "validity": "84 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "1.5GB/day"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Talktime",
+    "price": 100,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b981.75",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b981.75 talktime"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Unlimited",
+    "price": 999,
+    "validity": "84 days",
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "2GB/day"
+    ]
+  },
+  {
+    "operator": "Airtel",
+    "category": "Talktime",
+    "price": 10,
+    "validity": "NA",
+    "data": "No",
+    "calls": "\u20b97.47",
+    "sms": "No",
+    "type": "talktime",
+    "popular": false,
+    "highlight": "Talktime Recharge",
+    "benefits": [
+      "\u20b97.47 talktime"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Unlimited",
+    "price": 549,
+    "validity": "56 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Long Validity",
+    "benefits": [
+      "Unlimited calls",
+      "Long validity",
+      "1.5GB/day"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Data Packs",
+    "price": 19,
+    "validity": "1 day",
+    "data": "1GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "1GB data",
+      "Works with active plan"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Popular",
+    "price": 299,
+    "validity": "28 days",
+    "data": "2.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "2.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Jio",
+    "category": "Popular",
+    "price": 199,
+    "validity": "28 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "1.5GB/day data"
+    ]
+  },
+  {
+    "operator": "BSNL",
+    "category": "Popular",
+    "price": 199,
+    "validity": "28 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": [
+      "Unlimited calls",
+      "100 SMS/day",
+      "1.5GB/day data"
+    ]
+  },
+  {
+    "operator": "Vi",
+    "category": "Data Packs",
+    "price": 118,
+    "validity": "28 days",
+    "data": "12GB",
+    "calls": "No",
+    "sms": "No",
+    "type": "data",
+    "popular": false,
+    "highlight": "Extra Data Pack",
+    "benefits": [
+      "12GB data",
+      "Works with active plan"
+    ]
+  }
+]
