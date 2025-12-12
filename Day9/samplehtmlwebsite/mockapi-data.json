@@ -1,0 +1,54 @@
+[
+  {
+    "operator": "airtel",
+    "category": "popular", 
+    "price": 199,
+    "validity": "28 days",
+    "data": "1.5GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": ["1.5GB data per day", "Unlimited voice calls", "100 SMS per day", "Airtel Thanks benefits"]
+  },
+  {
+    "operator": "airtel",
+    "category": "popular",
+    "price": 299,
+    "validity": "28 days", 
+    "data": "2GB/day",
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": true,
+    "highlight": "",
+    "benefits": ["2GB data per day", "Unlimited voice calls", "100 SMS per day", "Disney+ Hotstar Mobile"]
+  },
+  {
+    "operator": "jio",
+    "category": "popular",
+    "price": 179,
+    "validity": "28 days",
+    "data": "1.5GB/day", 
+    "calls": "Unlimited",
+    "sms": "100/day",
+    "type": "prepaid",
+    "popular": false,
+    "highlight": "Best Value",
+    "benefits": ["1.5GB data per day", "Unlimited voice calls", "100 SMS per day", "JioApps subscription"]
+  },
+  {
+    "operator": "jio",
+    "category": "data",
+    "price": 19,
+    "validity": "1 day",
+    "data": "1GB",
+    "calls": "No",
+    "sms": "No", 
+    "type": "data",
+    "popular": false,
+    "highlight": "",
+    "benefits": ["1GB data", "1 day validity", "Emergency data pack"]
+  }
+]
