@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Plans - MobiPay</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .plan-card { border: 1px solid #ccc; margin: 10px; padding: 15px; border-radius: 8px; }
+        .plan-price { font-size: 24px; font-weight: bold; color: #2563eb; }
+        .operator-btn, .category-btn { margin: 5px; padding: 10px 15px; border: 1px solid #ccc; background: white; cursor: pointer; }
+        .operator-btn.active, .category-btn.active { background: #2563eb; color: white; }
+        #plansContainer { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Test Plans Page</h1>
+    
+    <div>
+        <h3>Operators:</h3>
+        <button class="operator-btn active" data-operator="airtel">Airtel</button>
+        <button class="operator-btn" data-operator="jio">Jio</button>
+        <button class="operator-btn" data-operator="vi">Vi</button>
+        <button class="operator-btn" data-operator="bsnl">BSNL</button>
+    </div>
+
+    <div>
+        <h3>Categories:</h3>
+        <button class="category-btn active" data-category="popular">Popular</button>
+        <button class="category-btn" data-category="data">Data</button>
+        <button class="category-btn" data-category="unlimited">Unlimited</button>
+        <button class="category-btn" data-category="talktime">Talktime</button>
+    </div>
+
+    <div id="plansContainer">
+        <!-- Plans will be loaded here -->
+    </div>
+
+    <script src="api-plans.js"></script>
+</body>
+</html>

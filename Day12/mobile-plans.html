@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Plans - RechargeNow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile-plans.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">📱</span>
+                <span class="logo-text">MobiPay</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="plans.html" class="nav-link active">Plans</a></li>
+                <li><a href="recharge.html" class="nav-link">Recharge</a></li>
+                <li><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+                <li><a href="auth.html" class="nav-link">Login</a></li>
+                <li><a href="auth.html" class="nav-btn">Sign Up</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+<section class="plans-section">
+    <div class="container">
+        <h1>Mobile Recharge Plans</h1>
+        
+        <div class="operator-tabs">
+            <button class="tab-btn active" onclick="showPlans('airtel')">Airtel</button>
+            <button class="tab-btn" onclick="showPlans('jio')">Jio</button>
+            <button class="tab-btn" onclick="showPlans('vi')">Vi</button>
+            <button class="tab-btn" onclick="showPlans('bsnl')">BSNL</button>
+        </div>
+        
+        <div class="plans-grid" id="plansGrid">
+            <!-- Plans will be loaded here -->
+        </div>
+    </div>
+</section>
+
+<script src="mobile-plans.js"></script>
+</body>
+</html>

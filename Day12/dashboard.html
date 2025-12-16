@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - RechargeNow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">📱</span>
+                <span class="logo-text">MobiPay</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="plans.html" class="nav-link">Plans</a></li>
+                <li><a href="recharge.html" class="nav-link">Recharge</a></li>
+                <li><a href="dashboard.html" class="nav-link active">Dashboard</a></li>
+                <li><a href="auth.html" class="nav-link">Login</a></li>
+                <li><a href="auth.html?signup=true" class="nav-btn">Sign Up</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+<section class="dashboard">
+    <div class="container">
+        <div class="welcome">
+            <h1>Welcome Back!</h1>
+            <p>Manage your recharges and account</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">💰</div>
+                <div class="stat-info">
+                    <h3>₹2,450</h3>
+                    <p>Total Recharged</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📱</div>
+                <div class="stat-info">
+                    <h3>12</h3>
+                    <p>Recharges Done</p>
+                </div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">💳</div>
+                <div class="stat-info">
+                    <h3>₹150</h3>
+                    <p>Cashback Earned</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dashboard-sections">
+            <div class="section">
+                <h2>Recent Transactions</h2>
+                <div class="transactions">
+                    <div class="transaction">
+                        <div class="trans-info">
+                            <span class="number">9876543210</span>
+                            <span class="operator">Airtel</span>
+                        </div>
+                        <div class="trans-amount">₹299</div>
+                        <div class="trans-status success">Success</div>
+                    </div>
+                    <div class="transaction">
+                        <div class="trans-info">
+                            <span class="number">8765432109</span>
+                            <span class="operator">Jio</span>
+                        </div>
+                        <div class="trans-amount">₹199</div>
+                        <div class="trans-status success">Success</div>
+                    </div>
+                    <div class="transaction">
+                        <div class="trans-info">
+                            <span class="number">7654321098</span>
+                            <span class="operator">Vi</span>
+                        </div>
+                        <div class="trans-amount">₹399</div>
+                        <div class="trans-status pending">Pending</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Quick Actions</h2>
+                <div class="quick-actions">
+                    <button class="action-btn" onclick="location.href='recharge.html'">
+                        <span class="action-icon">📱</span>
+                        New Recharge
+                    </button>
+                    <button class="action-btn" onclick="location.href='mobile-plans.html'">
+                        <span class="action-icon">📋</span>
+                        View Plans
+                    </button>
+                    <button class="action-btn" onclick="showHistory()">
+                        <span class="action-icon">📊</span>
+                        Full History
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="dashboard.js"></script>
+</body>
+</html>
